@@ -1,0 +1,11 @@
+<import src="text.wxml"/>
+<import src="image.wxml"/>
+
+<template name="components">
+    <template is="{{type}}"
+              data="{{data: data, styles: styles}}"
+    />
+</template>
+
+
+

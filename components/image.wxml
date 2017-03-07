@@ -1,0 +1,11 @@
+<!-- image.wxml -->
+<template name="image">
+  <view style="padding: {{styles.padding}};">
+    <image
+      mode="{{data.mode}}"
+      src="{{data.src}}"
+      style="width: {{styles.width}}; height: {{styles.height}}; background-color: {{styles.backgroundColor}};"
+    ></image>
+  </view>
+</template>
+

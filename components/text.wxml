@@ -1,0 +1,6 @@
+<!-- text .wxml -->
+<template name="text">
+  <view style="padding: {{styles.padding}};">
+    <text>{{data.text}}</text>
+  </view>
+</template>

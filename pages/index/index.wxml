@@ -1,10 +1,11 @@
-<!--index.wxml-->
 <view class="container">
+
+
   <view class="filters">
-    <text 
-      wx:for="{{filters}}" 
-      bindtap="applyFilter" 
-      id="{{item.key}}" 
+    <text
+      wx:for="{{filters}}"
+      bindtap="applyFilter"
+      id="{{item.key}}"
       class="{{visibilityFilter == item.key ? 'active' : ''}}"
     >{{item.text}}</text>
   </view>
@@ -14,7 +15,7 @@
       <icon type="{{item.completed ? 'success_circle' : 'circle'}}" size="18"/> {{item.text}}
     </view>
   </view>
-   
+
   <form class="add-todo" bindsubmit="addTodo">
     <input name="todo" class="todo-input" placeholder="点击添加"/>
     <button formType="submit">完成</button>

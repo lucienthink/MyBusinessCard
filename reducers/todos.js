@@ -1,4 +1,4 @@
-import {assign} from '../utils/Object'
+import _ from '../libs/lodash.core.min'
 
 const todo = (state, action) => {
   switch (action.type) {
@@ -13,7 +13,7 @@ const todo = (state, action) => {
         return state
       }
 
-      return assign({}, state, {completed: !state.completed})
+      return _.assign({}, state, {completed: !state.completed})
     default:
       return state
   }
