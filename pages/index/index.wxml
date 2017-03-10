@@ -1,4 +1,9 @@
 <view class="container">
+  <view class="title">
+    <text>
+      我的名片
+    </text>
+  </view>
 
 
   <view class="cardList">
