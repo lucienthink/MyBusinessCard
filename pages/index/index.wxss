@@ -1,4 +1,25 @@
 /**index.wxss**/
+
+.cardList{
+  width: 750rpx;
+  display: flex;
+}
+
+.cardItem{
+  width: 250rpx;
+  height: 400rpx;
+  text-align: center;
+}
+
+.cardItem-image{
+  width: 200rpx;
+  height: 320rpx;
+}
+
+.cardItem-title{
+  font-size: 28rpx;
+}
+
 .todos {
   padding: 10px;
 }

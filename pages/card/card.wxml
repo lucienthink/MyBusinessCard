@@ -1,7 +1,7 @@
 <!--card.wxml-->
 <import src="../../components/index.wxml"/>
 
-<view wx:for="{{cards}}" wx:for-index="idx" wx:for-item="item">
+<view wx:for="{{cardInfo}}" wx:for-index="idx" wx:for-item="item">
   <template is="components"
             data="{{type: item.type, data: item.data, styles: item.styles}}"
   />
